@@ -1,5 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: #F1F5F9;
 }
 
 .suunnistus_palkki {
@@ -9,7 +10,7 @@ body {
 
 }
 
-header {
+.suunnistus {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -17,12 +18,25 @@ header {
     padding-right: 20px;
 }
 
-img {
+.suunnistus img {
     margin-right: auto;
 }
 
-h1 {
+.suunnistus h1 {
     display: inline-block;
     align-items: flex-end;
     font-size: 20px;
+}
+
+.etusivu_alue {
+    width: 60%;
+    height: 560px;
+    margin: auto;
+    background-color: #D3D3D3;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(211%2c 211%2c 211%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c384.154C79.291%2c394.122%2c167.639%2c408.641%2c234.036%2c364.168C300.261%2c319.81%2c315.449%2c231.233%2c341.019%2c155.738C364.222%2c87.231%2c391.376%2c16.591%2c375.671%2c-54.013C360.436%2c-122.501%2c301.625%2c-168.545%2c256.866%2c-222.576C210.976%2c-277.971%2c179.233%2c-355.097%2c110.02%2c-374.694C40.866%2c-394.274%2c-26.799%2c-346.007%2c-94.571%2c-322.08C-158.461%2c-299.524%2c-231.193%2c-289.982%2c-275.389%2c-238.626C-319.539%2c-187.324%2c-322.75%2c-114.766%2c-330.814%2c-47.564C-338.705%2c18.196%2c-344.564%2c84.75%2c-321.647%2c146.891C-297.652%2c211.953%2c-254.853%2c268.558%2c-199.047%2c309.723C-140.864%2c352.642%2c-71.735%2c375.136%2c0%2c384.154' fill='darkgrey'%3e%3c/path%3e%3cpath d='M1440 1053.82C1529.721 1039.62 1597.78 971.7239999999999 1666.195 911.966 1725.915 859.803 1772.814 798.899 1811.253 729.545 1852.609 654.928 1899.062 579.487 1897.745 494.18600000000004 1896.345 403.523 1857.166 318.076 1803.768 244.793 1747.112 167.039 1677.814 91.543 1585.251 65.32 1492.992 39.18399999999997 1395.305 68.755 1306.045 103.791 1222.4470000000001 136.60399999999998 1149.66 189.61700000000002 1092.375 258.781 1035.999 326.847 1001.379 407.869 982.6510000000001 494.243 962.821 585.702 949.85 681.303 981.682 769.307 1014.855 861.019 1079.72 940.2370000000001 1162.58 991.674 1244.757 1042.688 1344.465 1068.941 1440 1053.82' fill='%23fdfdfd'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.etusivu_alue h2 {
+    text-align: center;
+    margin-top: 15px;
 }
