@@ -26,6 +26,18 @@ body {
     display: inline-block;
     align-items: flex-end;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.suunnistus a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.suunnistus a:hover {
+    background-color: #B0B0B0;
 }
 
 .etusivu_alue {
