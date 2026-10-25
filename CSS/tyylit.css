@@ -1,4 +1,28 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.suunnistus_palkki {
+    width: 60%;
+    margin: auto;
+    background-color: #D3D3D3;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+img {
+    margin-right: auto;
+}
+
 h1 {
-    text-align: center;
-      color: red;
+    display: inline-block;
+    align-items: flex-end;
+    font-size: 20px;
 }
