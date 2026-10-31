@@ -67,7 +67,8 @@ body {
 }
 
 .etusivu_alue_kuva {
-    width: 58%;
+    width: 100%;
+    height: 100%;
     margin-top: 38px;
 }
 
