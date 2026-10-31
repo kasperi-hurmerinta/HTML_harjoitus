@@ -20,6 +20,8 @@ body {
 
 .suunnistus img {
     margin-right: auto;
+    height: 60px;
+    padding-left: 10px;
 }
 
 .suunnistus h1 {
@@ -57,10 +59,11 @@ body {
     display: block;
     margin: auto;
     width: 95%;
-
+    height: 200px;
+    object-fit: contain;
 }
 
 .etusivu_alue p {
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
 }
